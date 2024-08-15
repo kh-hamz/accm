@@ -1,0 +1,21 @@
+html, body, body >div, .form
+{
+    background-color: rgb(14, 14, 14);
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+div .temp{
+    display: grid;
+    place-items: center;
+    width : 350px;
+}
+
+.error 
+{
+    display: grid; /* or inline-block */
+    font-size: 20px;
+    color: red;
+}

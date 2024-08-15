@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Raleway:wght@300;500;600&family=Roboto:wght@100;300;500;700;900&display=swap");
+
+li,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+#landing {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  display: flex;
+  background-color: #181d35d4; /* Dark background color */
+  height: 100vh;
+}
+
+.links {
+  margin: 0px;
+  position: sticky;
+  top: 0px;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  height: auto;
+  width: 100%;
+  background-color: #080808; /* Darker background color */
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.4) 0px 2px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 4%;
+}
+
+.link {
+  position: relative;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 10%;
+  padding: 25px 0px;
+  text-align: center;
+  font-size: 130%;
+  transition: all 300ms ease;
+  overflow: hidden;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-color: #f0ece5;
+}
+
+.link:hover a {
+  color: #161a30;
+}
+
+.link a {
+  color: white;
+}
+
+html,
+body,
+body > div,
+.employee {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #131518;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color:  #080808;
+  ; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  height: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.main {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80% 20%;
+  align-items: start;
+  margin: 0px;
+  padding: 32px 62px;
+  background-color: #121316d4;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebar{
+  background-color: #505357;
+  align-self: flex-start;
+  text-align: center;
+  width:80%;
+  height: 85%;
+  border-radius: 10px;
+  margin-right: 30px;
+  }
+
+.heading {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.heading .info {
+  padding-left: 64px;
+  color: #f0ece5;
+}
+
+.heading .info .info__item {
+  padding: 12px 0;
+}
+
+.heading .info h1 {
+  font-size: 32px;
+}
+
+.heading .info p {
+  font-weight: 300;
+}
+
+img {
+  height: 70px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  margin-right: 2%;
+}
+
+.img__wrapper {
+  display: flex;
+  justify-self: center;
+  width: auto;
+  min-width: 180px;
+  margin: 0px;
+  height: 200px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 15px 25px, rgba(0, 0, 0, 0.2) 0px 5px 10px; /* Darker shadow */
+}
+
+.img__wrapper img {
+  justify-self: center;
+  align-self: flex-start;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.imgage img{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  height: auto;
+}
+
+.employee-table {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.employee-table h1{
+ color:white;
+ margin-left: 15px;
+ margin-right: 80%;
+}
+
+.employee-table ul {
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.employee-table__contract{
+  min-width: 35%;
+  width: auto;
+  padding: 4px 8px;
+  margin: 10px;
+  background-color: #1a1925;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px; /* Darker shadow */
+  transition: all 300ms ease;
+  color:#f0ece5;
+  align-self: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px; /* Darker shadow */
+  transition: all 300ms ease;
+}
+
+.employee-table__contract:hover {
+  scale: 1.02;
+}
+
+.employee-table__contract h1{
+  text-align: center;
+  font-size: 50px;
+  margin:20px;
+  padding:20px;
+}
+
+.employee-table__contract h2 {
+  margin:25px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.employee-table__row {
+  width: 18%;
+  padding: 4px 8px;
+  margin: 8px;
+  background-color: #1a1925;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px; /* Darker shadow */
+  transition: all 300ms ease;
+  height: auto;
+}
+
+.start{
+  margin-right: 81%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.employee-table__row:hover {
+  scale: 1.02;
+}
+
+.employee-table__row h2 {
+  font-size: 14px;
+  color: #f0ece5;
+  padding-bottom: 4px;
+}
+
+.employee-table__row p {
+  font-size: 14px;
+  color: #f0ece5;
+  font-weight: 300;
+}
+
+.employee-table__row input {
+  color:black;
+    border:none;
+    margin-bottom: 8px;
+    font-size: 12px;
+    padding:10px 0px;
+    text-indent: 10px;
+    width: 80%;
+    height: 20px;
+    border-radius: 3px;
+    outline:none;
+}
+
+.employee-table__row button {
+  margin-top: 15px;
+  width:30%;
+  height:8%;
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 20px;
+  margin-bottom: 15px;
+}
+
+.fine{
+  border-radius: 10px;
+  padding-left: 20px;
+  width:auto;
+  height: auto;
+}
+
+.employee-table__graph {
+  min-width:50%;
+  padding: 4px 8px;
+  margin: 8px;
+  background-color: #1a1925;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px; /* Darker shadow */
+  transition: all 300ms ease;
+  min-height:400px;
+  height: fit-content;
+}
+
+
+.employee-table__graph1 {
+  width:fit-content;
+  padding: 4px 8px;
+  margin: 8px;
+  background-color: #1a1925;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px; /* Darker shadow */
+  transition: all 300ms ease;
+  min-height:400px;
+  height: fit-content;
+}
+
+.employee-table__graph h2{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  margin:10px;
+  padding:10px;
+}
+
+.employee-table__graph:hover {
+  scale: 1.02;
+}
+
+.employee-table__graph1 h2{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+  margin:10px;
+  padding:10px;
+}
+
+.employee-table__graph1:hover {
+  scale: 1.02;
+}
+
+.data{
+  border-radius: 10px;
+  padding-left: 20px;
+  min-width:40%;
+  width:auto;
+  height: auto;
+}
+
+.data h2{
+ font-size:20px;
+ margin-right: 20px;
+}
+
+.data p {
+  font-size:15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.data p:hover {
+  scale:1.05;
+}
+
+.fine h2{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.fine p {
+  font-size:15px;
+  margin-right: 10px;
+}
+
+.react-calendar {
+  margin-left: 5%;
+  width: 90%;
+  max-width: 100%;
+  background: rgb(124, 121, 121);
+  border: 1px solid #a0a096;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+.react-calendar--doubleView {
+  width: 700px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  height: 30px;
+  margin-bottom: 5em;
+  font-size: 12px;
+}
+
+.react-calendar__navigation button {
+  max-width: 80px;
+  margin-top: 10px;
+  height: 10px;
+  background: none;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+  font: inherit;
+  font-size: 0.833em;
+}
+
+span{
+  font-size: 15px;
+  height: 20px;
+}
+
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__tile--now {
+  background: #ffff76;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9;
+}
+
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}

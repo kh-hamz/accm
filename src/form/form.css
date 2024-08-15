@@ -1,0 +1,61 @@
+
+form
+{
+    text-align: center;
+    width: 350px;
+    padding: 30%;
+    border-radius: 2%;
+    display: grid;
+}
+
+form #logo img
+{
+width: 90%;
+height:auto;
+margin-bottom:10%;
+padding: 0px;
+}
+
+form .Input-fields input
+{
+    color:black;
+    border:none;
+    margin:none;
+    font-size: 18px;
+    padding:20px 0px;
+    text-indent: 30px;
+    width: 100%;
+    height: 40px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    outline:none;
+}
+
+
+form .Input-fields [type="password"]
+{
+    border-top:1px solid #ccc;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+button
+{
+border:none;
+border-radius: 8px;
+background-color: green;
+color:white;
+font-weight: bold;
+margin-top:20px;
+width:100%;
+font-size:22px;
+padding:20px 0px;
+}
+
+button:hover
+{
+background-color: darkgreen;
+cursor:pointer;
+}
